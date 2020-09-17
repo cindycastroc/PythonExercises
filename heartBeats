@@ -1,0 +1,10 @@
+# This program asks for the user's age, subtracts age from 220, and computes and prints the 65%-85%
+# from that last result so the user knows in which range they should keep their heart beats.
+
+inpt = float(input("Please enter your age "))
+
+other = 220 - inpt 
+minimum = other * .65
+maximum = other * .85
+
+print(f"When you exercise to strengthen your heart, you should keep your heart rate between {minimum} and {maximum} beats per minute.")
